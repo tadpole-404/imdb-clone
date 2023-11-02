@@ -1,6 +1,7 @@
 *{
     padding: 0;
     margin: 0;
+    font-family: 'Inter';
 }
 a:visited, a{
     text-decoration: none;
@@ -43,13 +44,13 @@ nav div.search input{
 
 nav h1{
     background-color: #F5C518;
+    font-family: 'Roboto Condensed';
+    font-size: 1.5rem;
     color: black;
     padding: 5px 10px;
-    font-weight: 700;
-    font-size: 1.5rem;
     border-radius: 5px;
 }
-nav h1,nav h2{
+nav h2{
     font-weight: 500;
     font-size: 1.2rem;
 }
@@ -58,7 +59,7 @@ nav input{
     font-size: 1.1rem;
     padding: 5px 10px;
     border: 3px solid #181818;
-    border-radius: 5px;
+    border-radius: 7px;
     outline: none;
 }
 
@@ -106,6 +107,7 @@ div.card-row{
     width: 250px;
     height: 500px;
     background-color: #1A1A1A;
+    position: relative;
 }
 div.card div.img{
     height: 300px;
@@ -116,6 +118,18 @@ div.card div.img img{
     height: 100%;
     width: 100%;
     object-fit: cover;     
+}
+
+div.card div.bookmark{
+    padding: 10px 0;
+    position: absolute;
+    top: 0;
+    left: 20px;
+    background-color: rgba(0, 0, 0, 0.6);
+}
+div.card div.bookmark:hover{
+    padding: 20px 0 0 0;
+
 }
 
 div.card div.about{
@@ -167,4 +181,50 @@ div.card a div.trailer:hover{
 div.card a div.trailer p{
     color: white;
     font-size: 1rem;
+}
+
+
+
+/* footer */
+
+
+footer{
+    max-width: 1300px;
+    margin: 90px auto 20px auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 30px;
+    justify-content:center;
+    color: white;
+
+}
+footer button{
+    background-color: #F5C518;
+    color: black;
+    font-family: 'Roboto Condensed';
+    font-size: 1rem;
+    font-weight: 900;
+    padding: 7px 25px;
+    border: none;
+    border-radius: 5px;
+}
+footer button:hover{
+    background-color: black;
+    border: 1px solid #F5C518;
+    color: #F5C518;
+    cursor: pointer;
+}
+
+footer div.social-handle{
+    display: flex;
+    gap: 40px;
+}
+footer div.social-handle img{
+    padding: 10px;
+    border-radius: 50%;
+}
+footer div.social-handle img:hover{
+    background-color: #2F343B;
+    cursor: pointer;
 }
