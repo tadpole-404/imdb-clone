@@ -201,17 +201,16 @@ footer{
 }
 footer button{
     background-color: #F5C518;
+    border: 1px solid #F5C518; 
     color: black;
     font-family: 'Roboto Condensed';
     font-size: 1rem;
     font-weight: 900;
     padding: 7px 25px;
-    border: none;
     border-radius: 5px;
 }
 footer button:hover{
     background-color: black;
-    border: 1px solid #F5C518;
     color: #F5C518;
     cursor: pointer;
 }
