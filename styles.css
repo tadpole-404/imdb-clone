@@ -30,6 +30,10 @@ nav div.search input{
     gap: 10px;
 }
 
+.home_btn:hover, div.watchlist:hover, .search>img:hover, h2.sign-in:hover{
+    scale: 1.2;
+}
+
 nav h1{
     background-color: #F5C518;
     color: black;
@@ -46,6 +50,11 @@ h1,h2{
 nav input{
     font-size: 1rem;
     padding: 5px 10px;
-    border: 1px solid black;
+    border: 2px solid black;
     border-radius: 5px;
+    outline: none;
+}
+
+nav input:focus{
+    border: 2px solid #F5C518;
 }
