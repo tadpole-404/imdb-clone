@@ -1,0 +1,51 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+div.navbar{
+    background-color: #121212;
+    color: white;
+}
+
+nav{
+    max-width: 1300px;
+    display: flex;
+    align-items: center;
+    gap: 30px;
+    padding: 10px 0;
+    margin: 0 auto;
+}
+nav div.search{
+    flex-grow: 1;
+}
+nav div.search input{
+    width: 90%;
+}
+
+.home_btn, div.search, div.watchlist{
+    display: flex;
+    align-items: center;
+    align-content: center;
+    gap: 10px;
+}
+
+nav h1{
+    background-color: #F5C518;
+    color: black;
+    padding: 5px 10px;
+    font-weight: 700;
+    font-size: 1.5rem;
+    border-radius: 5px;
+}
+h1,h2{
+    font-weight: 500;
+    font-size: 1.2rem;
+}
+
+nav input{
+    font-size: 1rem;
+    padding: 5px 10px;
+    border: 1px solid black;
+    border-radius: 5px;
+}
